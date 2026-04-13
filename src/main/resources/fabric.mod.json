@@ -3,7 +3,16 @@
   "id": "comet",
   "version": "1.0.0",
   "name": "Comet Client",
-  "authors": ["DeinName"],
-  "entrypoints": { "client": ["com.example.comet.CometMod"] },
-  "depends": { "fabricloader": ">=0.15.0", "minecraft": "~1.21", "java": ">=21" }
+  "authors": ["WeRhAt69"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.comet.CometMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21",
+    "java": ">=21"
+  }
 }
